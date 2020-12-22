@@ -17,7 +17,7 @@
     <!--[if IE]>
       <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <![endif]-->
-    <title>Apal Site</title>
+    <title>Apal Site - Technical information</title>
     <!--REQUIRED STYLE SHEETS-->
     <!-- BOOTSTRAP CORE STYLE CSS -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
@@ -39,23 +39,6 @@
   </head>
 
   <body>
-    5
-    <!--Header section  -->
-    <div class="container" id="home">
-      <div class="row text-center">
-        <div class="col-md-12">
-          <img src="images/logo2.jpg" />
-
-          <h2 class="head-sub-main">
-            <i class="fa fa-desktop fa-2x"></i> +
-            <i class="fa fa-mobile-phone fa-2x"></i>&nbsp;&nbsp;All Your data,
-            together.
-          </h2>
-        </div>
-      </div>
-    </div>
-    <!--End Header section  -->
-
     <!-- Navigation -->
     <nav class="navbar-inverse" role="navigation">
       <div class="container">
@@ -75,10 +58,10 @@
         <!-- Collect the nav links for toggling -->
         <div class="collapse navbar-collapse navbar-ex1-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#about">ABOUT</a></li>
+            <li><a href="index.html#home">HOME</a></li>
 
-            <li><a href="#work-sec">WORK FLOW</a></li>
+            <li><a href="#work-sec">ARCHITECTURE</a></li>
+            <li><a href="#about">TECHNOLOGIES</a></li>
             <li><a href="#contact-sec">CONTACT</a></li>
           </ul>
         </div>
@@ -88,85 +71,60 @@
     </nav>
     <!--End Navigation -->
 
-    <!--About Section-->
-    <section class="color-white" id="about">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-md-8 col-md-offset-2">
-            <h2 style="padding-top: 50px">Apal: your solution</h2>
-            <h4>
-              <strong>
-                Download the app from your favourite store or from
-                <a href="#">here</a>
-              </strong>
-            </h4>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="color-light">
+    <!-- Architecture -->
+    <section class="color-light" id="work-sec">
       <div class="container">
         <div class="row text-center">
           <div class="col-md-12">
-            <h2>How does APAL work?</h2>
-            <p>
-              You create your information you want to save. You share it to your
-              contacts to inputs that information.
-            </p>
-            <p>They input, you receive.</p>
+            <h2>Architecture</h2>
+            <img class="resize" src="techinfo/Apal-Architecture.png" />
           </div>
         </div>
       </div>
     </section>
     <!--End About Section-->
 
-    <!-- WORK Flow Section -->
-    <section class="color-white" id="work-sec">
+    <!--About Section-->
+    <section class="color-white" id="about">
       <div class="container">
         <div class="row text-center">
           <div class="col-md-8 col-md-offset-2">
-            <h2>Work Flow</h2>
-            <h4>
-              <strong> </strong>
-            </h4>
-          </div>
-        </div>
-
-        <div class="row text-center g-pad-bottom">
-          <div class="col-md-4">
-            <div class="work-div">
-              <i class="fa fa-desktop fa-5x"></i>
-
-              <h3>You create your form template</h3>
-            </div>
-          </div>
-
-          <div class="col-md-4">
-            <div class="work-div">
-              <i class="fa fa-share fa-5x"></i>
-
-              <h3>Share your form with your contacts.</h3>
-            </div>
-          </div>
-          <div class="col-md-4">
-            <div class="work-div">
-              <i class="fa fa-mobile-phone fa-5x"></i>
-
-              <h3>Your contacts fill up information.</h3>
-            </div>
-          </div>
-          <div class="row text-center">
-            <div class="col-md-8 col-md-offset-2">
-              <i class="fa fa-flask fa-5x"></i>
-
-              <h3>You see information and statistics</h3>
-            </div>
+            <h2 style="padding-top: 50px">Technologies Used</h2>
+            <h3>Frontend</h3>
+            <p>
+              Angular<br />
+              HTML5<br />
+              Capacitor<br />
+              GitHub Pages<br />
+              PWS Theme by <a href="www.binarytheme.com">binarytheme</a><br />
+            </p>
+            <h3>Backend</h3>
+            <p>
+              Java 11<br />
+              Spring Boot<br />
+              Spring Cloud<br />
+              AWS Lambda<br />
+              Maven<br />
+              AWS DynamoDB<br />
+              AWS CI/CD<br />
+              Postman<br />
+              Lombok<br />
+            </p>
+            <h3>General</h3>
+            <p>
+              Linux openSuse Leap 15.2<br />
+              VS Code<br />
+              Eclipse<br />
+              GitHub<br />
+              AWS DynamoDB<br />
+              Postman<br />
+              Lucid chart<br />
+            </p>
           </div>
         </div>
       </div>
     </section>
-    <!--End WORK Flow  Section -->
+
     <!-- Contact Section -->
     <section class="color-light" id="contact-sec">
       <div class="container">
@@ -191,7 +149,7 @@
 
     <!--footer Section -->
     <div class="for-full-back" id="footer">
-      <a href="techinfo.html">Tech info</a> | 2021 pguti778 | All Right Reserved
+      2021 pguti778 | All Right Reserved
     </div>
     <!--End footer Section -->
     <!-- JAVASCRIPT FILES PLACED AT THE BOTTOM TO REDUCE THE LOADING TIME  -->
